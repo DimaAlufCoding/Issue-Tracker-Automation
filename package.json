@@ -8,7 +8,9 @@
   "test:issues:local": "dotenv -e .env.local -- jest tests/api/issues",
   "test:createIssue:local": "dotenv -e .env.local -- jest tests/api/issues/createIssues.test.ts",
   "test:getIssue:local": "dotenv -e .env.local -- jest tests/api/issues/getIssue.test.ts",
-  "test:deleteIssue:local": "dotenv -e .env.local -- jest tests/api/issues/deleteIssue.test.ts"
+  "test:deleteIssue:local": "dotenv -e .env.local -- jest tests/api/issues/deleteIssue.test.ts",
+    "test:updateIssue:local": "dotenv -e .env.local -- jest tests/api/issues/updateIssue.test.ts"
+
 },
   "keywords": [],
   "author": "",

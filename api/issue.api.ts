@@ -16,6 +16,6 @@ export const deleteIssue = (id: number) => {
   return axios.delete(`${URL}/${id}`);
 };
 
-export const updateIssues = (id: number, body: CreateIssue) => {
+export const updateIssue = (id: number, body: CreateIssue) => {
   return axios.put(`${URL}/${id}`, body);
 };
