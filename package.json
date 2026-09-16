@@ -4,8 +4,12 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test:issues:local": "dotenv -e .env.local -- jest tests/api/issues"
-  },
+  "test": "jest tests/api/issues",
+  "test:issues:local": "dotenv -e .env.local -- jest tests/api/issues",
+  "test:createIssue:local": "dotenv -e .env.local -- jest tests/api/issues/createIssues.test.ts",
+  "test:getIssue:local": "dotenv -e .env.local -- jest tests/api/issues/getIssue.test.ts",
+  "test:deleteIssue:local": "dotenv -e .env.local -- jest tests/api/issues/deleteIssue.test.ts"
+},
   "keywords": [],
   "author": "",
   "license": "ISC",
