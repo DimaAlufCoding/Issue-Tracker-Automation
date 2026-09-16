@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "jest tests/api/issues/createIssues.test.ts",
-    "test:issues:local": "dotenv -e .env.local -- jest tests/api/issues/createIssues.test.ts"
+    "test:issues:local": "dotenv -e .env.local -- jest tests/api/issues/createIssues.test.ts",
+    "test:getIssue:local" :"dotenv -e .env.local -- jest tests/api/issues/getIssue.test.ts"
   },
   "keywords": [],
   "author": "",
